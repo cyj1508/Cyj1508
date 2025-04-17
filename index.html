@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>여행과 맛집 블로그</title>
+  <style>
+    body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+    header { background-color: #f0f0f0; padding: 20px 0; text-align: center; }
+    header h1 { margin: 0; font-size: 2em; }
+    header p { margin: 5px 0 0; color: #666; }
+    nav { margin: 15px 0; }
+    nav a { margin: 0 10px; text-decoration: none; color: #0077cc; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 800px; margin: auto; padding: 20px; }
+    section { margin-bottom: 40px; }
+    section h2 { border-bottom: 2px solid #ddd; padding-bottom: 5px; }
+    #gallery img { width: 30%; max-width: 200px; height: auto; margin: 5px; border: 2px solid #ccc; }
+    #map iframe { width: 100%; height: 300px; border: 0; }
+    form { max-width: 400px; }
+    label { display: block; margin: 8px 0 4px; }
+    input[type=text], input[type=email], textarea { width: 100%; padding: 8px; box-sizing: border-box; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+    button, input[type=submit] { background-color: #0077cc; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+    button:hover, input[type=submit]:hover { background-color: #005fa3; }
+    footer { text-align: center; color: #777; margin: 20px 0; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>여행과 맛집 블로그</h1>
+    <p>여행 경험과 맛집 정보를 공유하는 개인 블로그</p>
+    <nav>
+      <a href="#profile">프로필</a>
+      <a href="#travel">여행</a>
+      <a href="#food">맛집</a>
+      <a href="#gallery">갤러리</a>
+      <a href="#map">지도</a>
+      <a href="#contact">연락처</a>
+      <a href="#social">SNS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="profile">
+      <h2>프로필</h2>
+      <p>안녕하세요! 저는 여행과 맛집 탐방을 사랑하는 블로거입니다. 이 블로그에서는 제가 직접 다녀온 여행지와 방문한 맛집에 대한 경험을 공유하고 있습니다.</p>
+    </section>
+    <section id="travel">
+      <h2>여행 정보</h2>
+      <p>최근에 다녀온 여행지들을 소개합니다. 제주도에서는 아름다운 해변과 한적한 오름을 둘러보며 자연의 아름다움을 만끽했습니다. 경주에서는 역사 유적지를 탐방하며 한국의 고대 문화를 체험할 수 있었습니다.</p>
+    </section>
+    <section id="food">
+      <h2>맛집 정보</h2>
+      <p>여행 중에 발견한 맛집 정보를 공유합니다. 부산에서는 현지인들에게 인기 있는 돼지국밥집에서 진한 국물의 국밥을 맛보았습니다. 서울에서는 3대 전통 비빔밥 식당 중 한 곳을 방문하여 신선한 재료로 만든 비빔밥을 즐겼습니다.</p>
+    </section>
+    <section id="gallery">
+      <h2>이미지 갤러리</h2>
+      <p>여행 중 촬영한 사진들입니다.</p>
+      <img src="assets/placeholder1.png" alt="갤러리 이미지 1" />
+      <img src="assets/placeholder2.png" alt="갤러리 이미지 2" />
+      <img src="assets/placeholder3.png" alt="갤러리 이미지 3" />
+    </section>
+    <section id="map">
+      <h2>지도</h2>
+      <p>최근 방문한 장소의 위치입니다.</p>
+      <iframe src="https://maps.google.com/maps?q=Busan%2C%20South%20Korea&amp;output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="contact">
+      <h2>연락처</h2>
+      <p>질문이나 제안이 있으시면 아래 폼을 통해 연락 주세요.</p>
+      <form>
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" />
+        <label for="email">이메일:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" />
+        <label for="message">메시지:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+        <input type="submit" value="보내기" />
+      </form>
+    </section>
+    <section id="social">
+      <h2>소셜 링크</h2>
+      <p>다른 플랫폼에서도 저를 만나보세요: 
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a> | 
+        <a href="#">Instagram</a>
+      </p>
+    </section>
+  </main>
+  <footer>
+    © 2025 여행과 맛집 블로그
+  </footer>
+</body>
+</html>
